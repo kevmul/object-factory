@@ -1,0 +1,26 @@
+{
+  "name": "@kmulz/object-factory",
+  "version": "1.0.0",
+  "description": "Quickly create objects for testing",
+  "keywords": [
+    "testing",
+    "object",
+    "factory"
+  ],
+  "author": "kmulz",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.7.0",
+    "@vitest/ui": "latest",
+    "vite": "latest",
+    "vitest": "latest"
+  }
+}
